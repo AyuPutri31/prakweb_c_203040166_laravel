@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about', [
+        "name" => "Ayu Putri",
+        "email" => "ayupuutri0@gmail.com",
+        "image" => "Ayu.jpg"
+    ]);
+});
+
+
+Route::get('/blog', function () {
+    return view('posts');
 });
