@@ -31,11 +31,16 @@ class DatabaseSeeder extends Seeder
         //'password' => bcrypt('12345678')
         //]);
 
-        User::factory(10)->create();
+        User::factory(3)->create();
 
         Category::create([
             'name' => 'Web Programming',
             'slug' => 'web-programming'
+        ]);
+
+        Category::create([
+            'name' => 'Web Design',
+            'slug' => 'web-design'
         ]);
 
         Category::create([
