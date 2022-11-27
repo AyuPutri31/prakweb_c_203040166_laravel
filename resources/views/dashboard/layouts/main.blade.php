@@ -11,7 +11,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
-    {-- trix --}}
+{{--    {-- trix --}}
     <link rel="stylesheet" type="text/css" href="/css/trix.css">
     <style>
         trix-toolbar [data-trix-button-group="file-tools"] {
